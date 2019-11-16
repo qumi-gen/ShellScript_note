@@ -1,2 +1,3 @@
 #!/bin/sh
-rails new scms --api
+rails new scms -d postgresql　--api
+
