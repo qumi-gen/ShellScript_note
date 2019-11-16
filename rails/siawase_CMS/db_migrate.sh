@@ -4,4 +4,8 @@ rails db:create RAILS_ENV=development
 
 rake db:create
 
-rails generate model content_master
+rails g model content_master
+
+sudo rails g model comment ID:string DATE:date COMMENT:text
+
+sudo rails g model content_master ID:string name:string
