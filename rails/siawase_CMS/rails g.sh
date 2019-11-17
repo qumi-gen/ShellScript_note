@@ -11,4 +11,4 @@ rails g controller content_master
 #もしくは
 rails generate scaffold poem ID:string DATE:date COMMENT:text
 
-rails g model master ID:string name:string
+rails g scaffold master ID:string name:string
