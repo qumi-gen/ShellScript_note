@@ -12,3 +12,5 @@ rails g controller content_master
 rails generate scaffold poem ID:string DATE:date COMMENT:text
 
 rails g scaffold master ID:string name:string
+
+rake db:migrate #scaffoldの後にmigrateをすること
